@@ -14,7 +14,7 @@ h1 {
   margin: 0 auto;
 }
 
-h2 {
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   color: white;
