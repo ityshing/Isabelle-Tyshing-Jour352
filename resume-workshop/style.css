@@ -1,3 +1,7 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 h1 {
   color: #33485e;
   text-align: center;
@@ -85,8 +89,6 @@ ul {
   margin: 0 auto;
   padding-bottom: 50px;
   color: #444;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 1em;
-
 }
 /*I am not entirely sure I applied the container div correctly, but I hope I did!*/
