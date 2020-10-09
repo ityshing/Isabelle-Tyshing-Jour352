@@ -50,6 +50,7 @@ h5 {
   padding: 0px;
   text-align: center;
   display: inline;
+  list-style-type: none; 
 }
 
 ul {
