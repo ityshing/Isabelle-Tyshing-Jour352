@@ -1,0 +1,23 @@
+#body {
+  color: #444;
+  font-family: sans-serif;
+  font-weight: 1em;
+}
+
+h1 {
+  font-size: 3em;
+  color: #33485e;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: white;
+  background-color: #33485e;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
