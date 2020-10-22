@@ -24,12 +24,30 @@ p {
   font-size: 13px;
 }
 
+.photosource {
+  font-size: 13px;
+  color: gray;
+}
+
 blockquote {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Crete Round', serif;
   font-size: 35px;
-  text-align: right;
-  width: 450px;
+  background-color: lightgray;
+  text-align: left;
+  width: 475px;
+  padding: 35px;
+}
 
+.graphic {
+  font-size: 20px;
+  font-weight: bold;
+}
 
+.chatter {
+  font-size: 13px;
+  color: gray;
+}
 
+h2 {
+  font-family: Helvetica, sans-serif;
 }
