@@ -1,0 +1,35 @@
+#banner {
+  align-content: center;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
+
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+}
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+blockquote {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  text-align: right;
+  width: 450px;
+
+
+
+}
