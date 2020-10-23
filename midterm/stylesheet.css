@@ -1,0 +1,26 @@
+#content {
+  width: 800px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 40px;
+}
+
+.byline {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-style: italic;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 25px;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
