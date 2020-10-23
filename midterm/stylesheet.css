@@ -2,16 +2,23 @@
   width: 800px;
   margin: 0 auto;
   align-items: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+#masthead {
+  margin-bottom: 20px;
 }
 
 h1 {
   font-family: 'Lora', serif;
-  font-size: 40px;
+  font-size: 37px;
+  margin-bottom: 5px;
 }
 
 .byline {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   font-style: italic;
 }
 
@@ -23,4 +30,17 @@ h2 {
 p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
+}
+
+.caption {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: gray;
+}
+
+blockquote {
+  background-color: lightblue;
+  padding: 15px;
+  font-size: 25px;
+  font-family: 'Karma', serif;
 }
