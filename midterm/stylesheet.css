@@ -62,5 +62,24 @@ blockquote {
 }
 
 .posetext {
-  width: 300px;
+  width: 320px;
+}
+
+.scream {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.screamtext {
+  width: 350px;
+  float: left;
+}
+
+.trophy {
+  float: right;
+  margin-left: 10px;
+}
+
+.trophytext {
+  width: 350px;
 }
