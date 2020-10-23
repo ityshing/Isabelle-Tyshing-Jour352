@@ -53,7 +53,7 @@ Questions
 
 11.  What is the main difference between a serif and a sans-serif font?
 
-  Serif fonts, like Times New Roman, have text decoration (serifs) and sans-serif, like   Arial,  fonts   do not.
+  Serif fonts, like Times New Roman, have text decoration (serifs) and sans-serif fonts, like Arial, do not.
 
 12.  Which of the following is a hexadecimal code? To answer, delete the options that are not a hexadecimal code.
 
