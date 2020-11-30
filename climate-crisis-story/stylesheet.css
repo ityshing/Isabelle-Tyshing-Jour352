@@ -1,3 +1,7 @@
+#topper {
+
+}
+
 #content {
   width: auto;
   max-width: 1160px;
@@ -33,11 +37,16 @@ section {
 
 blockquote {
   color: #b81111;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bolder;
   font-family: 'Raleway', sans-serif;
-  padding: 10px;
   text-align: center;
+}
+
+.attr {
+  font-size: 30px;
+  color: grey;
+  padding-bottom: 10px;
 }
 
 img {
