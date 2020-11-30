@@ -1,1 +1,9 @@
-/*this is my comment*/
+.title {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 60px;
+}
+
+.byline {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
