@@ -2,6 +2,7 @@
   <html lang="en" dir="ltr">
     <head>
       <meta charset="utf-8">
+      <meta name="description" content="Climate Crisis in Baltimore">
       <title>Climate Crisis Story</title>
       <link rel="stylesheet" href="stylesheet.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -9,9 +10,18 @@
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
     </head>
 
-    <body
-      <div id="topper"></div>
-      <div id="content">
+    <body>
+      <div id="topper">
+        <img src="sonia-hug-streetview.jpg" width="2000px" alt="streetview">
+        <div class="toppertitle">
+          Heat and Inequality
+          <div class="toppersub">
+            In Baltimore, the burden of rising temperatures isn’t shared.
+          </div>
+        </div>
+        <div class="toppercred"></div>
+      </div>
+      <div id="container">
         <div class="title">In urban heat islands, climate crisis hits harder</div>
         <div class="byline">STORY BY: IAN ROUND, JAZMIN CONNER, JERMAINE ROWLEY AND SANDY BANISKY</div>
         <section>
@@ -136,9 +146,11 @@
           <p>
             Public health studies have shown that without community cohesion, residents are at more risk when temperatures soar. Baltimore health officials say that isolation is always a danger to health.
           </p>
-          <img src="solomon-simmons.jpg" alt="Solomon Simmons in his East Baltimore home">
-          <div class="caption">
+          <div id=simmons>
+            <img src="solomon-simmons.jpg" alt="Solomon Simmons in his East Baltimore home">
+            <div class="caption">
             Solomon Simmons in his East Baltimore home (Photo by Amina Lampkin | University of Maryland)
+            </div>
           </div>
           <p>
             Today, Simmons said, many of his old neighbors have died. Only about four people remain from the group of homeowners his mother met when she moved to McElderry Park in the 1980s.
@@ -164,9 +176,11 @@
           <p>
             Alexander, retired from Armco Steel and the Baltimore school system, follows the old Baltimore practice of scrubbing her rowhouse’s white marble steps often. She used to scrub the steps of neighbors’ houses as well. “It’s important to me,” she said. “This is where I live.”
           </p>
-          <img src="harriett-alexander.jpg" alt="Harriett Alexander and her dog, Shakur.">
-          <div class="caption">
+          <div id="alexander">
+            <img src="harriett-alexander.jpg" alt="Harriett Alexander and her dog, Shakur.">
+            <div class="caption">
             Harriett Alexander, with her dog, Shakur, doesn’t like using her air conditioner because she might not hear someone breaking into her house. (Photo by Maris Medina | University of Maryland)
+            </div>
           </div>
           <p>
             She tends large pots of hostas and lilies that bloom next to her rowhouse steps, and on summer days she sits in the shade of a mature sidewalk tree and chats with neighbors. She has air conditioning in her second-floor bedroom but doesn’t like using it because she fears she wouldn’t hear if anyone was breaking into her house.
@@ -183,6 +197,16 @@
           <p>
             Even if someone from McElderry Park decided to find a cooling center, some centers were closed on the weekend. The closest center open Saturday and Sunday was about a mile away — a long walk for the young or the old in 100-degree heat.
           </p>
+          <div class="row">
+            <div class="col">
+              <iframe title="The relationship between summer temperature and poverty in Baltimore" aria-label="chart" id="datawrapper-chart-ZLW0y" src="https://datawrapper.dwcdn.net/ZLW0y/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+              </script>
+            </div>
+            <div class="col">
+              <iframe title="Summer temperature and violence" aria-label="chart" id="datawrapper-chart-jBD30" src="https://datawrapper.dwcdn.net/jBD30/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+          </script>
+            </div>
+          </div>
           <p>
             Jennifer Martin, Baltimore's deputy health commissioner for population health and disease prevention, said she was “sad and surprised” to hear so many people were unaware of the cooling centers.
           </p>
@@ -219,6 +243,30 @@
           <p>
             If no action is taken to reduce carbon emissions, by mid-century that figure will rise to more than 37 days annually, according to the researchers. The study defines mid-century as starting in 17 years.
           </p>
+          <div id="sidebar">
+            <h2>State of the Climate 2018</h2>
+              <p>
+                The American Meteorological Society releases a State of the Climate report each summer summarizing data collected by global environmental monitoring stations around the world. In 2018, here were five key findings.
+              </p>
+              <ul>
+                <li>
+                  <strong>2018 was the fourth warmest year, behind only 2016, 2015 and 2017.</strong> Since the start of the 21st Century, every year has been hotter than the global average temperature recorded from 1981 to 2010.
+                </li>
+                <li>
+                  <strong>Glaciers have continued to melt for the 30th year in a row.</strong> In 2018, approximately one meter of ice melted off the top of the average glacier.
+                </li>
+                <li>
+                  <strong>Sea levels rose for the seventh year in a row.</strong> The annual mean sea level is the highest it’s been in 26 years.
+                </li>
+                <li>
+                  <strong>The global average carbon dioxide concentration at Earth’s surface is the highest ever recorded</strong> according to data that goes back 800,000 years. Carbon dioxide, methane and nitrous oxide released in the atmosphere continue to increase.
+                </li>
+                <li>
+                  <strong>Arctic air temperatures rose at twice the rate of the rest of the Earth</strong> with the five past years’ Arctic temperatures surpassing records since 1900.
+                </li>
+              </ul>
+              <p><em>Source: American Meteorological Society's <a href="https://www.ametsoc.org/ams/index.cfm/publications/bulletin-of-the-american-meteorological-society-bams/state-of-the-climate/">The State of the Climate in 2018</a></em></p>
+          </div>
           <p>
             By the end of the century, as a baby born today becomes a senior citizen, there will be 65 days with a heat index of 100 degrees or higher, the researchers projected. That’s about the same number as McAllen, Texas, a city that abuts the Mexican border.
           </p>
@@ -267,15 +315,23 @@
         </section>
         <section>
           <div class="sectiontitle">Rowhouses in the heat</div>
+          <div id="canady">
+            <img src="melissa-candy.jpg" alt="Melissa Canady">
+            <div class="caption">
+            Melissa Canady says that the concrete block walls in her backyard prevent the flow of air and trap heat behind her house. (Photo by Maris Medina | University of Maryland)
+            </div>
+          </div>
           <p>
             Rowhouses efficiently conserve heat — which is welcome in the winter, a problem in the summer.
           </p>
           <p>
             On a hot summer day, Melissa Canady walked through the alley behind her rowhouse. The backyard is concrete, poured by a previous owner to create a space that could be cleaned by a broom. Concrete blocks form low walls that separate each yard.
           </p>
-          <img src="melissa-candy.jpg" alt="Melissa Canady">
-          <div class="caption">
-            Melissa Canady says that the concrete block walls in her backyard prevent the flow of air and trap heat behind her house. (Photo by Maris Medina | University of Maryland)
+          <div id="garden">
+            <img src="amazing-grace-garden.jpg" alt="Green space at Amazing Grace Evangelical Lutheran Church">
+            <div class="caption">
+            The garden entrance at Amazing Grace Evangelical Lutheran Church is one of the few green spaces in the McElderry Park neighborhood. (Photo by Ian Round | University of Maryland)
+            </div>
           </div>
           <p>
             “The neighborhood’s so closed in,” she said. “There are so many houses. There’s no air flow. If there was some way you could get some air into the community.”
@@ -283,10 +339,7 @@
           <p>
             Her backyard looks out onto a patch of green, the Amazing Port Street commons, a block of green space cared for by Amazing Grace Lutheran Church and created when a row of vacant houses was razed. The neighbors sometimes use it for events such as community cookouts.
           </p>
-          <img src="amazing-grace-garden.jpg" alt="Green space at Amazing Grace Evangelical Lutheran Church">
-          <div class="caption">
-            The garden entrance at Amazing Grace Evangelical Lutheran Church is one of the few green spaces in the McElderry Park neighborhood. (Photo by Ian Round | University of Maryland)
-          </div>
+
           <p>
             It’s the largest green space for blocks. But some neighbors said they are reluctant to walk their dogs there for fear they will step on syringes discarded by people who use drugs.
           </p>

@@ -1,12 +1,36 @@
 #topper {
-
-}
-
-#content {
   width: auto;
   max-width: 1160px;
   margin-left: 60px;
   margin-right: 60px;
+}
+
+.toppertitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 75px;
+  text-align: center;
+  position: relative;
+  top: -700px;
+  color: white;
+  background-color: #ba1f04;
+  opacity: 0.6;
+  padding-top: 200px;
+  padding-bottom: 327px;
+}
+
+.toppersub {
+  font-size: 40px;
+  background-color: black;
+  opacity: 1;
+}
+
+#container {
+  width: auto;
+  max-width: 1160px;
+  margin-left: 60px;
+  margin-right: 60px;
+  position: relative;
+  top: -700px;
 }
 
 .title {
@@ -35,6 +59,18 @@ section {
   padding-bottom: 25px;
 }
 
+a:link {
+  color: #554df0;
+}
+
+a:visited {
+  color: #8f33c4;
+}
+
+a:hover {
+  color: #0c0f75;
+}
+
 blockquote {
   color: #b81111;
   font-size: 45px;
@@ -49,6 +85,32 @@ blockquote {
   padding-bottom: 10px;
 }
 
+#sidebar {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  border-style: solid;
+  border-width: medium;
+  border-color: red;
+  margin-bottom: 20px;
+}
+
+h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: red;
+  text-decoration: underline;
+}
+
+ul {
+  text-align: left;
+}
+
+strong {
+  font-weight: 2000;
+  text-decoration: underline;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -60,6 +122,18 @@ img {
   color: #999999;
   padding-bottom: 20px;
   font-size: 15px;
+}
+
+#alexander {
+  float: right;
+  width: 50%;
+  padding-left: 20px;
+}
+
+#garden {
+  float: right;
+  width: 50%;
+  padding-left: 20px;
 }
 
 .credits {
