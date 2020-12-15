@@ -1,0 +1,139 @@
+* {
+  max-width: inherit;
+}
+
+#topper {
+  width: auto;
+}
+
+.toppertext {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 6vw;
+  position: absolute;
+  top: 30vw;
+  left: 50vw;
+  /*right: 30vw;*/
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background-color: #242424;
+  opacity: 70%
+}
+
+.toppersub {
+  padding-top: 20px;
+  font-size: 3.25vw;
+}
+
+.toppercaption {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: grey;
+  padding-left: 1vw;
+  padding-top: .5vw;
+}
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+
+#container {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 400;
+  padding-left: 12.5vw;
+  padding-right: 12.5vw;
+  font-size: 20px;
+}
+
+
+.pagetitle {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700;
+  font-size: 5.5vw;
+  padding-top: 1.5vw;
+}
+
+.byline {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  color: grey;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.sectitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  padding-bottom: 15px;
+  color: #96008e;
+}
+
+#container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: grey;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+blockquote {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 37px;
+  font-weight: 400;
+  color: #96008e;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: medium;
+  border-color: #96008e;
+  text-align: center;
+}
+
+.attr {
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  color: darkgrey;
+}
+
+.map{
+  padding-bottom: 20px;
+}
+
+.credits {
+  color: grey;
+}
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px
+);
+
+$container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 960px
+);
